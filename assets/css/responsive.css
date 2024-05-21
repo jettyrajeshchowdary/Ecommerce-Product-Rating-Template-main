@@ -1,0 +1,162 @@
+/* large screens */
+@media (min-width: 1600px)
+{
+
+}
+
+
+@media (max-width: 1500px)
+{
+    .wrapper
+    {
+        width: 95%;
+    }
+}
+
+
+/* Desktops/Laptops */
+@media (max-width: 1200px)
+{
+    .tab-100
+    {
+        width: 100%;
+    }
+    .tab-50
+    {
+        width: 50%;
+    }
+    .productListGrid
+    {
+        height: auto;
+    }
+    .productList
+    {
+        height: 100%;
+    }
+    .order_c2
+    {
+        order: 2;
+    }
+    .order_c3
+    {
+        order: 3;
+    }
+    .thankyouinner
+    {
+        width: 60%;
+    }
+}
+
+/* Laptops */
+@media (max-width: 1024px)
+{
+
+}
+
+/* Tablets */
+@media (max-width: 768px)
+{
+    .thankyou
+    {
+        min-height: auto;
+    }
+    .main-heading
+    {
+        font-size: 40px;
+    }
+    .productRating
+    {
+        width: 70%;
+    }
+    .thankyouinner
+    {
+        width: 70%;
+    }
+    .thankyou h1
+    {
+        font-size: 55px;
+    }
+}
+
+/* mobile */
+@media (max-width: 480px)
+{
+    .productRating
+    {
+        width: 100%;
+    }
+    .sm-100
+    {
+        width: 100%;
+    }
+    .main-heading
+    {
+        font-size: 25px;
+    }
+    .rating-inner
+    {
+        padding: 30px;
+    }
+    .bar-single-inner
+    {
+        display: block;
+    }
+    .total-rating
+    {
+        text-align: end;
+        margin-top: 10px;
+        margin-right: 5px;
+    }
+    .bars
+    {
+        justify-content: space-between;
+    }
+    .productListGrid
+    {
+        display: block;
+    }
+    .product_single
+    {
+        width: auto;
+    }
+    .productList
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x;
+        gap: 1rem;
+    }
+    .sm-none
+    {
+        display: none;
+    }
+    .thankyou
+    {
+        padding: 50px 25px;
+    }
+    .thankyouinner
+    {
+        width: 100%;
+    }
+    .thankyou h1
+    {
+        font-size: 35px;
+    }
+    .thankyouPage .ratingBtn
+    {
+        width: 100%;
+    }
+    .thankyou p
+    {
+        font-size: 13px;
+    }
+    .thankyou h2
+    {
+        font-size: 18px;
+    }
+
+}

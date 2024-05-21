@@ -1,0 +1,16 @@
+.clip
+{
+    animation: clip 0.3s forwards linear;
+}
+@keyframes clip {
+    from
+    {
+        clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 0% 50%);
+
+    }
+    to
+    {
+        clip-path: polygon(5% 0, 95% 0, 80% 40%, 96% 100%, 4% 100%, 20% 40%);
+
+    }
+}
